@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Aula web sobre Bootstrap</title>
 
 <!--Link para o Bootstrap via CDN-->
 
@@ -11,12 +11,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+<br>
+<br>
     <h1>Aula Web 2023</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 
 <!--Código de botão copiado do Bootstrap-->
 
+<br>
+<br>
 <button type="button" class="btn btn-outline-primary">Primário</button>
 <button type="button" class="btn btn-outline-secondary">Secundário</button>
 <button type="button" class="btn btn-outline-success">Successo</button>
@@ -26,6 +30,53 @@
 <button type="button" class="btn btn-outline-light">Claro</button>
 <button type="button" class="btn btn-outline-dark">Escuro</button>
 
-<!--Fim do código de botão copiado do Bootstrap-->
+<!--Código de card com descrição e botão-->
+
+<br>
+<br>
+<div class="card" style="width: 18rem;">
+    
+<br>
+<br>
+    <img src="https://2.bp.blogspot.com/-WSjtZ1ABj8s/XDEeRVsKEjI/AAAAAAAAQ_I/udAKrBhOZCwGQS_tho7wPnfTHqCFyJjKgCLcBGAs/s1600/Ford-Focus-1999%2B%25282%2529.jpeg" class="card-img-top" alt="Ford_Focus2008">
+    <div class="card-body">
+      <h5 class="card-title">Ford Focus 2008</h5>
+      <p class="card-text">Focus é um automóvel fabricado pela Ford a partir de 1998 para suceder o Escort e, à época de seu lançamento, disputar mercado com os mais modernos Fiat Brava, Chevrolet Astra (Opel Astra em Portugal) e Volkswagen Golf.</p>
+      <a href="https://pt.wikipedia.org/wiki/Ford_Focus" class="btn btn-primary">Clique aqui para comprar um Ford Focus 2008</a>
+    </div>
+  </div>
+
+<!--Carrosel de imagens com 3 indicadores-->
+
+<br>
+<br>
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2020/08/Escort-XR3-Convers%C3%ADvel-modelo-1994-da-Ford._1.jpg?quality=70&strip=info" class="d-block w-100" alt="Escort_XR3_1994">
+      </div>
+      <div class="carousel-item">
+        <img src="https://motortudo.com/wp-content/uploads/2021/01/FORD-E3.jpg" class="d-block w-100" alt="Escort_XR3_1987">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.pastorecc.com.br/site/photos/cars/1873/bg_PiQ3OlnWeFyL9TQI1PG8.jpeg" class="d-block w-100" alt="Escort_XR3_1993">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+  <!--Fim código-->
 
 </html>
